@@ -1,0 +1,33 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+html{
+  font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: bold;
+  margin: 0;
+}
+h1{
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+}
+h2{
+  font-size: $h2-font-size;
+}
+h3{
+  font-size: $h3-font-size;
+}
+h4{
+  font-size: $h4-font-size;
+}
+h5{
+  font-size: $h5-font-size;
+}
