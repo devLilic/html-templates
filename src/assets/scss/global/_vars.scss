@@ -1,14 +1,40 @@
+// CONTAINER
+$container-width: 1230px;
+
 // COLORS
-$color-main: #00183C;
+$color-main: #7F56D9;
+$color-main-darken: #6941C6;
+$color-second: #F4EBFF;
 $color-accent: #FFD0A4;
-$color-additional: #91A0B7;
 $color-gray: #BABABA;
+
+$color-text: #646464;
+$color-text-light: #EAECF0;
+
+$color-titles: #101828;
+$color-titles-small: $color-main-darken;
 
 // FONTS
 $h1-font-size: 4.8rem;
 $h1-line-height: 9.6rem;
 
-$h2-font-size: 3.2rem;
-$h3-font-size: 2.8rem;
-$h4-font-size: 2.4rem;
-$h5-font-size: 1.8rem;
+$h2-font-size: 3.6rem;
+$h2-line-height: 4.4rem;
+
+$h3-font-size: 2.4rem;
+$h3-line-height: 3.2rem;
+
+$h4-font-size: 1.8rem;
+$h4-line-height: 2.8rem;
+
+$h5-font-size: 1.4rem;
+
+// BUTTONS
+$btn-primary-color: $color-main;
+$btn-primary-text: #fff;
+
+$btn-second-color: #F4EBFF;
+$btn-second-text: $color-main-darken;
+
+$btn-default-color: #F9FAFB;
+$btn-default-text: #101828;

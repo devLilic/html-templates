@@ -1,8 +1,10 @@
-body{
-  font-family: 'PT Sans', sans-serif;
+body {
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
+  font-size: 1.6rem;
 }
-html{
+
+html {
   font-size: 10px;
 }
 
@@ -11,23 +13,34 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   font-weight: bold;
   margin: 0;
+  color: $color-titles;
 }
-h1{
+
+h1 {
   font-size: $h1-font-size;
   line-height: $h1-line-height;
+  letter-spacing: -0.5px;
 }
-h2{
+
+h2 {
   font-size: $h2-font-size;
+  line-height: $h2-line-height;
+  letter-spacing: -0.02rem;
 }
-h3{
+
+h3 {
   font-size: $h3-font-size;
+  line-height: $h3-line-height;
 }
-h4{
+
+h4 {
   font-size: $h4-font-size;
+  line-height: $h4-line-height;
 }
-h5{
+
+h5 {
   font-size: $h5-font-size;
 }

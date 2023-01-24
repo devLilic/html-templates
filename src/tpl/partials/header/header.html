@@ -1,0 +1,69 @@
+<header class="header">
+    <div class="container">
+        <!--        Top Navigation-->
+        {{> nav}}
+        <!--        END Top Navigation-->
+
+        <div class="header__inner">
+            <div class="header__info">
+                <h1 class="header__title">
+                    up your <span>skills</span> <br> to <span> advance </span> your <span> career</span> path
+                </h1>
+                <div class="header__text">
+                    Provides you with the latest online learning system and material that help your
+                    knowledge growing.
+                </div>
+                <div class="header__buttons">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-second">Get Free Trial</button>
+                </div>
+                <div class="header__badges-list">
+                    <div class="header__badge-item">
+                        <i class="badge badge-speaker"></i>
+                        Public Speaking
+                    </div>
+                    <div class="header__badge-item">
+                        <i class="badge badge-case"></i>
+                        Career-Oriented
+                    </div>
+                    <div class="header__badge-item">
+                        <i class="badge badge-idea"></i>
+                        Creative Thinking
+                    </div>
+                </div>
+            </div>
+            <div class="header__data">
+                <div class="header__data-item header__data-video">
+                    <i class="header__data-icon icon__video"></i>
+                    <div class="header__data-inner">
+                        <div class="header__data-title">{{data.header_data.videos}}</div>
+                        <div class="header__data-text">Video Courses</div>
+                    </div>
+                </div>
+                <div class="header__data-item header__data-tutors">
+                    <i class="header__data-icon icon__tutors"></i>
+                    <div class="header__data-inner">
+                        <div class="header__data-text">Tutors</div>
+                        <div class="header__data-title">{{data.header_data.tutors}}</div>
+                    </div>
+                </div>
+                <div class="header__data-item data-item--big header__data-item-big header__data-online">
+                    <i class="header__data-icon icon__online"></i>
+                    <div class="header__data-title">{{data.header_data.online}}</div>
+                    <div class="header__data-text">Online Courses</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="header__sponsors">
+            <div class="header__sponsors-main">
+                <div class="header__sponsors-title">250+</div>
+                <div class="header__sponsors-text">Collaboration</div>
+            </div>
+            <img src="./assets/img/duolingo.png" alt="duolingo">
+            <img src="./assets/img/codecov.png" alt="codecov">
+            <img src="./assets/img/user-testing.png" alt="user-testing">
+            <img src="./assets/img/magic-leap.png" alt="magic-leap">
+        </div>
+    </div>
+</header>

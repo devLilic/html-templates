@@ -1,0 +1,93 @@
+.nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 43px;
+}
+
+.search-form {
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding-left: 31px;
+  max-width: 367px;
+  height: 44px;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-image: url("./../img/icons/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 14px;
+    left: 16px;
+  }
+
+  & form {
+    display: flex;
+  }
+
+  &__explore-menu {
+    padding: 0 44px 0 16px;
+    margin: 4px;
+    height: 36px;
+    max-width: 111px;
+    border-radius: 8px;
+    color: $color-main;
+    font-size: 1.4rem;
+    line-height: 36px;
+    font-weight: 600;
+    background-color: $btn-second-color;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($btn-second-color, 3%);
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-image: url(./../img/icons/arrow-down.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      right: 16px;
+    }
+  }
+
+  &__input {
+    padding: 0 8px;
+    line-height: 24px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+  }
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 285px;
+
+  &__link {
+    line-height: 2.4;
+  }
+}
+
+.user-account {
+  &__link {
+    line-height: 2.4;
+  }
+
+  &__btn {
+    margin-left: 20px;
+  }
+}

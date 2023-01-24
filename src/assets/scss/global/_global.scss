@@ -3,40 +3,64 @@ a{
   text-decoration: none;
 }
 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-  max-width: 1406px;
+  max-width: $container-width;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
 .btn{
-  border: 0;
-  border-radius: 5px;
-  padding: 1.8rem 4.5rem;
-
+  border-radius: 8px;
   text-align: center;
-  color: #fff;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btn-primary{
-  background: #F08723;
+  background: $btn-primary-color;
+  border: 1px solid $btn-primary-color;
+  color: #fff;
+  padding: 1.6rem 2.8rem;
   font-size: 1.8rem;
-  font-weight: bold;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
   &:hover{
-    background: #FD9839;
+    background: lighten($btn-primary-color, 5%);
+  }
+}
+
+.btn-small{
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 1rem 1.6rem;
+}
+
+.btn-second{
+  background: $btn-second-color;
+  border: 1px solid $btn-second-color;
+  padding: 1.6rem 2.8rem;
+  color: #6941C6;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  &:hover{
+    background: darken($btn-second-color, 5%);
   }
 }
 
 .btn-default{
-  background: #303030;
-  border: 1px solid #fff;
-  font-size: 1.8rem;
-  font-weight: bold;
-  line-height: 2.4rem;
+  background: $btn-default-color;
+  border: 1px solid #D0D5DD;
+  color: $btn-default-text;
+  font-size: 1.4rem;
+  line-height: 2rem;
   &:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: darken($btn-default-text, 5%);
   }
 }
 
@@ -82,4 +106,13 @@ a{
 
 .hidden{
   display: none !important;
+}
+
+
+.title-small{
+  color: $color-main-darken;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  margin-bottom: 12px;
 }

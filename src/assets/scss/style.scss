@@ -3,3 +3,10 @@
 @import "global/vars";
 @import "global/mixins";
 @import "global/fonts";
+@import "global/global";
+
+// PARTIALS
+@import "partials/header/header-top";
+@import "partials/header/header";
+@import "partials/services";
+@import "partials/programs";
