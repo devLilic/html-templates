@@ -4,3 +4,12 @@
   background-position: $position;
   background-size: $size;
 }
+
+@mixin positioned-element($width: 1rem, $height: 1rem, ){
+  content: "";
+  position: absolute;
+  width: $width;
+  height: $height;
+  background-repeat: no-repeat;
+  background-position: center;
+}

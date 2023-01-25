@@ -1,6 +1,28 @@
+@font-face {
+  font-family: "Muller";
+  src: url('/assets/fonts/MullerRegular.eot') format("eot"),
+    url("/assets/fonts/MullerRegular.ttf") format('ttf'),
+    url("/assets/fonts/MullerRegular.woff") format("woff"),
+    url("/assets/fonts/MullerRegular.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url('/assets/fonts/MullerBold.eot') format("eot"),
+  url("/assets/fonts/MullerBold.ttf") format('ttf'),
+  url("/assets/fonts/MullerBold.woff") format("woff"),
+  url("/assets/fonts/MullerBold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
 body{
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Muller', sans-serif;
+  font-weight: normal;
 }
 html{
   font-size: 10px;

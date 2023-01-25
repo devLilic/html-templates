@@ -1,0 +1,98 @@
+.header-top{
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 114px;
+  }
+  &__logo{
+    margin-right: 2.5rem;
+
+  }
+  &__phone{
+    margin-right: auto;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: $color-text;
+  }
+
+  &__login{
+    font-size: 1.6rem;
+    color: $color-main;
+    letter-spacing: 1px;
+    padding-left: 18px;
+    position: relative;
+
+    &:before{
+      @include positioned-element(14px, 15px);
+      background-image: url("./../img/icon-personal.png");
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &__nav{
+    height: 7rem;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 71px;
+  }
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+  }
+
+  &__links{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+  }
+}
+
+.search-form{
+  &__wrapper{
+    width: 355px;
+    height: 48px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  &__input{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    padding-left: 25px;
+    font-size: 1.4rem;
+    line-height: 100%;
+    border: none;
+
+    &::placeholder{
+      color: #bebebe;
+    }
+  }
+  &__search-btn{
+    width: 60px;
+    padding-top: 7px;
+    background: transparent;
+    outline: none;
+    border: none;
+  }
+}
+
+.icon-search{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("./../img/icon-search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

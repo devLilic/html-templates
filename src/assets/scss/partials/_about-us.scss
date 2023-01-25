@@ -1,0 +1,17 @@
+.about-us{
+  margin-bottom: 69px;
+  &__title{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 18px;
+    padding-left: 45px;
+    color: #333;
+  }
+  &__text{
+    width: 980px;
+    color: #666666;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    padding-left: 45px;
+  }
+}
