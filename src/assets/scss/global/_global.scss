@@ -14,11 +14,11 @@ a{
 
 .btn{
   border: 0;
-  border-radius: 7px;
-  padding: 2.7rem 3rem;
+  border-radius: 10px;
   text-align: center;
   color: #fff;
   cursor: pointer;
+  padding: 1.3rem 2rem;
 }
 
 .btn-primary{
@@ -32,13 +32,13 @@ a{
 }
 
 .btn-default{
-  background: #303030;
-  border: 1px solid #fff;
-  font-size: 1.8rem;
+  background: transparent;
+  border: 1px solid $color-main;
+  font-size: 1.6rem;
   font-weight: bold;
-  line-height: 2.4rem;
+  color: $color-main;
   &:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: darken(#fff, 5%);
   }
 }
 

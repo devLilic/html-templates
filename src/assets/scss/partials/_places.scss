@@ -1,0 +1,86 @@
+.places {
+  margin-bottom: 68px;
+
+  &__title {
+    font-size: 40px;
+    font-weight: normal;
+    padding-left: 45px;
+    margin-bottom: 18px;
+    color: #333;
+  }
+
+  &__list {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 2.5rem 2.5rem;
+  }
+}
+
+.places__item {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  &-inner {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    margin: 37px 44px;
+  }
+
+  &-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  &-price span {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  &-rating {
+    width: 96px;
+    height: 3rem;
+    background-image: url('./../img/raiting.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+  }
+
+  &-title {
+    color: #333;
+  }
+
+  &-description {
+    color: #999;
+    margin-bottom: 17px;
+  }
+
+}
+
+.all-places{
+  position: relative;
+
+  & img{
+    height: 100%;
+  }
+
+  & .places__item-title{
+    bottom: 52px;
+    left: 39px;
+    color: #fff;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    padding-right: 25px;
+    position: absolute;
+  }
+}
+
+.icon-arrow-right-white{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url('./../img/arrow-right-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
