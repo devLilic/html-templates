@@ -1,23 +1,27 @@
 .services{
   margin-bottom: 70px;
-  &__title{
-    padding-left: 45px;
-    font-weight: normal;
-    margin-bottom: 18px;
-  }
 
-  &__inner{
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    grid-gap: 24px 24px;
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
 .services__item{
+  flex: 1 1 45%;
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
+
+  &:first-child,
+  &:nth-child(2){
+    margin-bottom: 24px;
+  }
+
+  &:first-child,
+  &:nth-child(3){
+    margin-right: 24px;
+  }
 
   &-inner{
     padding: 35px 60px 35px 45px;
@@ -28,6 +32,7 @@
   }
 
   &-title{
+    display: inline-block;
     color: $color-main;
     font-size: 2.2rem;
     line-height: 3.2rem;

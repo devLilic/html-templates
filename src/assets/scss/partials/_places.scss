@@ -18,8 +18,13 @@
 
 .places__item {
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
+  transition: box-shadow .3s ease-in-out;
+
+  &:hover{
+    box-shadow: 3px 3px 30px #ccc;
+  }
 
   &-inner {
     font-size: 1.6rem;
@@ -53,6 +58,17 @@
   &-description {
     color: #999;
     margin-bottom: 17px;
+  }
+
+  &-btn{
+    transition-property: color, background-color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+
+    &:hover{
+      color: #fff;
+      background-color: $color-main;
+    }
   }
 
 }

@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   background-color: $color-background;
 }
@@ -6,8 +10,14 @@ a{
   text-decoration: none;
 }
 
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-  max-width: 1168px;
+  max-width: 1198px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -81,7 +91,14 @@ a{
   }
 }
 
-
 .hidden{
   display: none !important;
+}
+
+.title{
+  font-size: 4rem;
+  font-weight: normal;
+  margin-left: 4.5rem;
+  margin-bottom: 1.8rem;
+  color: #333;
 }

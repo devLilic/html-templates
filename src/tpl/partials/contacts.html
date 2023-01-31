@@ -1,6 +1,6 @@
 <section class="contacts">
   <div class="container">
-    <div class="contacts__title">Контакты</div>
+    <div class="contacts__title title">Контакты</div>
     <div class="contacts__inner">
       <div class="contacts__info">
         <div class="contacts__row">
@@ -19,7 +19,7 @@
           <div class="contacts__info-title">E-mail</div>
           <div class="contacts__info-text text-light">
             <a href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a> по вопросам
-            бронирования
+            бронирования <br>
             <a href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a> по вопросам сотрудничества
           </div>
         </div>
@@ -33,12 +33,12 @@
         <button class="contacts__btn btn btn-default">Построить маршрут</button>
       </div>
       <div class="contacts__form">
-        <div class="contacts__form-title">Напишите нам</div>
-        <form action="#">
-          <input type="text" class="contacts__form-input" placeholder="Имя">
-          <input type="tel" class="contacts__form-input" placeholder="+7">
-          <textarea name="" id="" cols="30" rows="10" class="contacts__form-textarea" placeholder="Сообщение..."></textarea>
-          <button class="contacts__form-btn btn btn-primary">Отправить</button>
+        <div class="title contacts__form-title">Напишите нам</div>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+          <input class="contacts__form-input" name="name" type="text" placeholder="Имя">
+          <input class="contacts__form-input" name="phone" type="tel" placeholder="+7">
+          <textarea name="message" id="message" cols="30" rows="10" class="contacts__form-textarea" placeholder="Сообщение..."></textarea>
+          <button type="submit" class="contacts__form-btn btn btn-primary">Отправить</button>
         </form>
       </div>
     </div>
