@@ -1,14 +1,22 @@
 // COLORS
-$color-main: #00183C;
-$color-accent: #FFD0A4;
-$color-additional: #91A0B7;
-$color-gray: #BABABA;
+$color-main: #FF9900;
+$color-accent: #E1670E;
+
+$color-text: #333;
 
 // FONTS
-$h1-font-size: 4.8rem;
-$h1-line-height: 9.6rem;
+$h1-font-size: 7rem;
+$h1-line-height: 8.5rem;
 
-$h2-font-size: 3.2rem;
-$h3-font-size: 2.8rem;
+$h2-font-size: 4.8rem;
+$h2-line-height: 5.9rem;
+
+$h3-font-size: 2.4rem;
+$h3-line-height: 3.2rem;
+
 $h4-font-size: 2.4rem;
 $h5-font-size: 1.8rem;
+
+// SIZES
+$container-width: 1770px;
+

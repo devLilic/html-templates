@@ -1,0 +1,12 @@
+.icon{
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &-search{
+    background-image: url("/../img/icon-search");
+    background-size: auto 24px;
+  }
+  &-close{
+
+  }
+}
